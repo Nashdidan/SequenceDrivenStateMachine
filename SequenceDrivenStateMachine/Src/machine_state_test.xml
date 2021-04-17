@@ -1,0 +1,29 @@
+<MachineState>
+	<LegalEvents>
+		<Event desctiption = "A"/>
+		<Event desctiption = "B"/>
+		<Event desctiption = "C"/>
+	</LegalEvents>
+	
+	<State machine_state="Anna">
+		<Event desctiption = "A"/>
+		<Event desctiption = "A"/>
+		<Event desctiption = "B"/>
+		<Event desctiption = "C"/>
+		<Event desctiption = "A"/>		
+	</State>
+	<State machine_state="Idan">
+		<Event desctiption = "A"/>
+		<Event desctiption = "B"/>
+		<Event desctiption = "C"/>
+		<Event desctiption = "A"/>			
+		<Event desctiption = "C"/>			
+	</State>
+	<State machine_state="Shiba">
+		<Event desctiption = "A"/>
+		<Event desctiption = "C"/>
+		<Event desctiption = "C"/>
+		<Event desctiption = "C"/>
+		<Event desctiption = "Any"/>		
+	</State>
+</MachineState>

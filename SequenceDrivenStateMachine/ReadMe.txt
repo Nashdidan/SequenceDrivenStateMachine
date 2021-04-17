@@ -3,6 +3,10 @@
 Install rapidxml library before using:
 	- go to Resources directory
 	- write on terminal : sudo apt install librapidxml-dev -y
+	
+For Compile:
+	in Src directory - 
+	g++ -Wall -g -std=c++17  -o ../Bin/a.out State.cpp ExampleStates.cpp Machine.cpp RunTest.cpp Event.cpp TerminalEventListener.cpp
 
 Xml file writing instractions:
 
